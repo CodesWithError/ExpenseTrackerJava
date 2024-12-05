@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Regular Expression data</comment>
+<entry key="emailRegexp">^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$</entry>
+<entry key="mobileRegexp">^[0-9]{10}$</entry>
+<entry key="nameRegexp">^[a-zA-Z]{1,24}(?:\s[a-zA-Z]{1,24}){0,24}$</entry>
+<entry key="passwordRegexp">^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&amp;+=])(?=\S+$).{8,12}$</entry>
+</properties>
